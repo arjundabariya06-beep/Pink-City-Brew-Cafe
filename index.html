@@ -3,47 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Romeo Lane caffe</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet"
->
-<link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"
+>   <link rel="icon" type="image/png" href="./Images/logo.jpg">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
      <!-- HEADER / NAVIGATION -->
 
 <header class="fixed inset-x-0 top-0 z-50 border-b border-[var(--line)] bg-[var(--surface)]/95 backdrop-blur-md">
-
-    <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
+<div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
 
         <!-- Logo -->
 
-        <a
-            href="index.html"
-            class="flex items-center gap-3"
-        >
+        <a href="index.html"
+            class="flex items-center gap-3" >
 
-            <span
-                class="flex h-11 w-11 items-center justify-center rounded-full bg-[var(--brand)] text-white"
-            >
-                <i class="fa-solid fa-mug-hot"></i>
+            <span class="flex h-11 w-11 items-center justify-center rounded-full bg-[var(--brand)] text-white">
+              <img src="./Images/logo.jpg" alt="">
             </span>
 
             <span>
+                  <span class="block text-lg font-extrabold leading-tight">
+                   Romeo Lane 
+                  </span>
 
-                <span class="block text-lg font-extrabold leading-tight">
-                    Pink City
-                </span>
-
-                <span class="block text-[10px] font-semibold uppercase tracking-[0.3em] text-[var(--brand)]">
-                    Brew Café
-                </span>
+                  <span class="block text-[10px] font-semibold uppercase tracking-[0.3em] text-[var(--brand)]">
+                    Jaipur
+                  </span>
 
             </span>
 
@@ -52,42 +44,29 @@
 
         <!-- Desktop Navigation -->
 
-        <nav
-            class="hidden items-center gap-7 md:flex"
-        >
-
-            <a
-                href="index.html"
-                class="text-sm font-semibold text-[var(--brand)]"
-            >
+        <nav class="hidden items-center gap-7 md:flex" >
+            <a href="#home"
+                class="text-sm font-semibold text-[var(--brand)]" >
                 Home
             </a>
 
-            <a
-                href="about.html"
-                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]"
-            >
+            <a href="#about"
+                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]" >
                 About
             </a>
 
-            <a
-                href="menu.html"
-                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]"
-            >
+            <a href="#menu"
+                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]">
                 Menu
             </a>
 
-            <a
-                href="gallery.html"
-                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]"
-            >
+            <a href="#gallery"
+                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]" >
                 Gallery
             </a>
 
-            <a
-                href="contact.html"
-                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]"
-            >
+            <a href="#contact"
+                class="text-sm font-semibold text-[var(--muted)] transition hover:text-[var(--brand)]">
                 Contact
             </a>
 
@@ -96,79 +75,44 @@
 
         <!-- Desktop CTA -->
 
-        <a
-            href=""
-            class="hidden items-center gap-2 rounded-full bg-[var(--ink)] px-5 py-3 text-sm font-semibold text-[var(--surface)] transition hover:bg-[var(--brand)] md:flex"
-        >
-
+        <a  href="" class="hidden items-center gap-2 rounded-full bg-[var(--ink)] px-5 py-3 text-sm font-semibold text-[var(--surface)]               transition hover:bg-[var(--brand)] md:flex">
             <i class="fa-regular fa-calendar"></i>
-
-            Reserve a Table
-
-        </a>
+            Reserve a Table </a>
 
 
         <!-- Mobile Navigation -->
 
         <details class=" relative md:hidden">
-
+        
             <summary
-                class="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-[var(--ink)] text-[var(--surface)]"
-                
-            >
-
-                <i class="menu-icon fa-solid fa-bars"></i>
-
+            class="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-[var(--ink)] text-[var(--surface)]">
+            <i class="menu-icon fa-solid fa-bars"></i>
             </summary>
 
+        <div  class="absolute right-0 top-14 w-72 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-2xl">
+             <nav class="flex flex-col gap-1">
 
-            <div
-                class="absolute right-0 top-14 w-72 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-2xl"
-            >
-
-                <nav
-                    class="flex flex-col gap-1"
-                >
-
-                    <a
-                        href="index.html"
-                        class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]"
-                    >
+                    <a href="#home"  class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]">
                         Home
                     </a>
 
-                    <a
-                        href="about.html"
-                        class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]"
-                    >
+                    <a href="#about"  class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]" >
                         About
                     </a>
 
-                    <a
-                        href="menu.html"
-                        class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]"
-                    >
+                    <a href="#menu"  class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]" >
                         Menu
                     </a>
 
-                    <a
-                        href="gallery.html"
-                        class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]"
-                    >
+                    <a href="#gallery"  class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]" >
                         Gallery
                     </a>
 
-                    <a
-                        href="contact.html"
-                        class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]"
-                    >
+                    <a href="#contact"  class="rounded-xl px-4 py-3 text-sm font-semibold hover:bg-[var(--surface-soft)]">
                         Contact
                     </a>
 
-                    <a
-                        href="contact.html"
-                        class="mt-2 rounded-xl bg-[var(--brand)] px-4 py-3 text-center text-sm font-bold text-white"
-                    >
+                    <a href="contact.html"  class="mt-2 rounded-xl bg-[var(--brand)] px-4 py-3 text-center text-sm font-bold text-white" >
                         Reserve a Table
                     </a>
                 </nav>
@@ -183,140 +127,113 @@
      Grid is intentionally used here. -->
 
 
-<section class="px-5 pb-20 pt-32 lg:px-8">
-
-    <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
-
-        <div>
-
-            <p class="inline-flex items-center gap-2 rounded-full bg-[var(--surface-soft)] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[var(--brand)]">
+<section id="home" class="px-5 pb-20 pt-32 lg:px-8">
+    <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2"> <div>
+    <p class="inline-flex items-center gap-2 rounded-full bg-[var(--surface-soft)] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[var(--brand)]\">
 
                 <i class="fa-solid fa-location-dot"></i>
+                 12th Floor, World Business Center , jaipur
+    </p>
 
-                C-Scheme, Jaipur
-
-            </p>
-
-
-            <h1 class="mt-6 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
+    <h1 class="mt-6 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
 
                 Coffee, conversations
                 <span class="text-[var(--brand)]">
                     & Jaipur vibes.
                 </span>
-
-            </h1>
-
-
+    </h1>
             <p class="mt-6 max-w-xl text-lg leading-8 text-[var(--muted)]">
-
                 A modern neighbourhood café where specialty coffee,
                 fresh food and the relaxed spirit of Jaipur come together.
+             </p>
 
-            </p>
+     <div class="mt-8 flex flex-col gap-3 sm:flex-row">
 
-
-            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-
-                <a
-                    href="menu.html"
-                    class="rounded-full bg-[var(--brand)] px-7 py-4 text-center font-bold text-white transition hover:bg-[var(--brand-dark)]"
-                >
+                <a href="menu.html"
+                    class="rounded-full bg-[var(--brand)] px-7 py-4 text-center font-bold text-white transition hover:bg-[var(--brand-dark)]">
                     Explore Menu
                     <i class="fa-solid fa-arrow-right ml-2"></i>
                 </a>
 
-                <a
-                    href="contact.html"
-                    class="rounded-full border border-[var(--line)] px-7 py-4 text-center font-bold hover:bg-[var(--surface)]"
-                >
+                <a href="contact.html"
+                    class="rounded-full border border-[var(--line)] px-7 py-4 text-center font-bold hover:bg-[var(--surface)]" >
                     Reserve a Table
                 </a>
 
-            </div>
+    </div>
 
+         <!-- Flexbox requirement -->
 
-            <!-- Flexbox requirement -->
-
-            <div class="mt-10 flex flex-wrap gap-8">
-
-                <div>
-
-                    <p class="text-3xl font-extrabold">
+    <div class="mt-10 flex flex-wrap gap-8"><div>
+                <p class="text-3xl font-extrabold">
                         4.8
-                    </p>
+                </p>
 
-                    <p class="text-sm text-[var(--muted)]">
+                <p class="text-sm text-[var(--muted)]">
                         Guest Rating
-                    </p>
+                </p>
 
-                </div>
-
-
-                <div>
-
-                    <p class="text-3xl font-extrabold">
-                        25+
-                    </p>
-
-                    <p class="text-sm text-[var(--muted)]">
-                        Coffee Creations
-                    </p>
-
-                </div>
+    </div>
 
 
-                <div>
+    <div>
+             <p class="text-3xl font-extrabold">
+                25+
+             </p>
+             <p class="text-sm text-[var(--muted)]">
+                Coffee Creations
+             </p>
+    </div>
 
-                    <p class="text-3xl font-extrabold">
+
+     <div>
+
+             <p class="text-3xl font-extrabold">
                         7 AM
-                    </p>
+            </p>
 
-                    <p class="text-sm text-[var(--muted)]">
+            <p class="text-sm text-[var(--muted)]">
                         Opening Time
-                    </p>
+            </p>
 
-                </div>
+    </div>
 
-            </div>
+        </div>
 
         </div>
 
 
-        <div class="relative">
+     <div class="relative">
 
             <img
-                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=85"
+                src="./Images/gallery-3.jpg"
                 alt="Warm modern café interior with tables and hanging lights"
-                class="h-[520px] w-full rounded-[2rem] object-cover shadow-2xl sm:h-[600px]"
-            >
+                class="h-[520px] w-full rounded-[2rem] object-cover shadow-2xl sm:h-[600px]" >
 
 
-            <div class="absolute bottom-5 left-5 right-5 rounded-2xl bg-white/90 p-5 backdrop-blur-md dark:bg-black/80">
+         <div class="absolute bottom-5 left-5 right-5 rounded-2xl bg-white/90 p-5 backdrop-blur-md dark:bg-black/80">
+                 <div class="flex items-center justify-between gap-5">  
+            <div>
 
-                <div class="flex items-center justify-between gap-5">
+                  <p class="text-xs text-gray-500">
+                      Today's special
+                 </p>
 
-                    <div>
+                 <h2 class="font-bold text-gray-500">
+                        Rose Cardamom Latte
+                 </h2>
 
-                        <p class="text-xs text-gray-500">
-                            Today's special
-                        </p>
+           </div>
 
-                        <h2 class="font-bold">
-                            Rose Cardamom Latte
-                        </h2>
-
-                    </div>
-
-                    <span class="font-bold text-[var(--brand)]">
-                        ₹220
-                    </span>
-
-                </div>
-
-            </div>
+                <span class="font-bold text-[var(--brand)]">
+                      ₹220
+                </span>
 
         </div>
+
+    </div>
+
+    </div>
 
     </div>
 
@@ -401,23 +318,20 @@
      <!-- ABOUT PREVIEW -->
 
 
-<section class="py-24">
+<section id="about" class="py-24">
 
     <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 lg:grid-cols-2 lg:px-8">
-
         <div class="grid grid-cols-2 gap-4">
 
             <img
-                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=85"
+                src="./Images/story.jpg"
                 alt="Freshly brewed coffee in a ceramic cup"
-                class="h-72 w-full rounded-3xl object-cover"
-            >
+                class="h-72 w-full rounded-3xl object-cover">
 
             <img
-                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=85"
+                src="./Images/story-2.jpg"
                 alt="Comfortable café seating area"
-                class="mt-10 h-72 w-full rounded-3xl object-cover"
-            >
+                class="mt-10 h-72 w-full rounded-3xl object-cover">
 
         </div>
 
@@ -433,15 +347,14 @@
             </h2>
 
             <p class="mt-6 leading-8 text-[var(--muted)]">
-                Pink City Brew was created around one simple idea:
+                Romeo Lane was created around one simple idea:
                 give Jaipur a comfortable place for great coffee,
                 fresh food and genuine conversations.
             </p>
 
             <a
                 href="about.html"
-                class="mt-7 inline-flex items-center font-bold text-[var(--brand)]"
-            >
+                class="mt-7 inline-flex items-center font-bold text-[var(--brand)]">
                 Read our story
                 <i class="fa-solid fa-arrow-right ml-2"></i>
             </a>
@@ -539,7 +452,7 @@
 <!-- POPULAR MENU -->
 
 
-<section class="py-24">
+<section id="menu" class="py-24">
 
     <div class="mx-auto max-w-7xl px-5 lg:px-8">
 
@@ -573,7 +486,7 @@
             <article class="overflow-hidden rounded-3xl border border-[var(--line)] bg-[var(--surface)]">
 
                 <img
-                    src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=700&q=85"
+                    src="./Images/menu-1.jpg"
                     alt="Classic cappuccino"
                     class="h-56 w-full object-cover"
                 >
@@ -583,7 +496,7 @@
                     <div class="flex justify-between gap-4">
 
                         <h3 class="font-bold">
-                            Cappuccino
+                            Pizza
                         </h3>
 
                         <span class="font-bold text-[var(--brand)]">
@@ -593,7 +506,7 @@
                     </div>
 
                     <p class="mt-2 text-sm text-[var(--muted)]">
-                        Espresso, steamed milk and creamy foam.
+                     A Slice a Day Keeps Sadness Away
                     </p>
 
                 </div>
@@ -604,7 +517,7 @@
             <article class="overflow-hidden rounded-3xl border border-[var(--line)] bg-[var(--surface)]">
 
                 <img
-                    src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=700&q=85"
+                    src="./Images/menu-2.jpg"
                     alt="Chocolate dessert"
                     class="h-56 w-full object-cover"
                 >
@@ -614,7 +527,7 @@
                     <div class="flex justify-between gap-4">
 
                         <h3 class="font-bold">
-                            Chocolate Brownie
+                            Milk-soaked
                         </h3>
 
                         <span class="font-bold text-[var(--brand)]">
@@ -624,7 +537,7 @@
                     </div>
 
                     <p class="mt-2 text-sm text-[var(--muted)]">
-                        Rich chocolate brownie served warm.
+                        Rich chocolate Milk-soaked served warm.
                     </p>
 
                 </div>
@@ -635,10 +548,9 @@
             <article class="overflow-hidden rounded-3xl border border-[var(--line)] bg-[var(--surface)]">
 
                 <img
-                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85"
+                    src="./Images/menu-3.webp"
                     alt="Fresh healthy café bowl"
-                    class="h-56 w-full object-cover"
-                >
+                    class="h-56 w-full object-cover" >
 
                 <div class="p-6">
 
@@ -666,7 +578,7 @@
             <article class="overflow-hidden rounded-3xl border border-[var(--line)] bg-[var(--surface)]">
 
                 <img
-                    src="https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=700&q=85"
+                    src="./Images/menu-4.jpg    "
                     alt="Grilled café sandwich"
                     class="h-56 w-full object-cover"
                 >
@@ -887,7 +799,7 @@
         </h1>
 
         <p class="mx-auto mt-6 max-w-2xl leading-8 text-[var(--muted)]">
-            Pink City Brew is imagined as a neighbourhood café where
+            Romeo Lane as a neighbourhood café where
             modern coffee culture meets the warmth of Jaipur.
         </p>
 
@@ -903,7 +815,7 @@
     <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 lg:grid-cols-2 lg:px-8">
 
         <img
-            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
+            src="./Images/idea.jpg"
             alt="People enjoying coffee inside a modern café"
             class="h-[520px] w-full rounded-[2rem] object-cover"
         >
@@ -927,7 +839,7 @@
             <p class="mt-4 leading-8 text-[var(--muted)]">
                 Whether you are meeting an old friend, opening your laptop,
                 enjoying breakfast or simply looking for a quiet cup of
-                coffee, Pink City Brew is designed around that experience.
+                coffee, Rome Lane  is designed around that experience.
             </p>
 
 
@@ -1061,7 +973,7 @@
         <i class="fa-solid fa-mug-hot text-4xl"></i>
 
         <h2 class="mt-5 text-4xl font-extrabold">
-            Come experience Pink City Brew.
+            Come experience Romeo Lane.
         </h2>
 
         <p class="mx-auto mt-4 max-w-xl text-white/80">
@@ -1070,8 +982,7 @@
 
         <a
             href="contact.html"
-            class="mt-7 inline-flex rounded-full bg-white px-7 py-4 font-bold text-[var(--brand)]"
-        >
+            class="mt-7 inline-flex rounded-full bg-white px-7 py-4 font-bold text-[var(--brand)]">
             Plan Your Visit
         </a>
 
@@ -1297,14 +1208,12 @@
         <div class="grid items-center gap-12 lg:grid-cols-2">
 
             <img
-                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=85"
+                src="./Images/kitchen.jpg"
                 alt="Bright café dining area"
-                class="h-[500px] w-full rounded-[2rem] object-cover"
-            >
+                class="h-[500px] w-full rounded-[2rem] object-cover">
 
 
             <div>
-
                 <p class="text-xs font-bold uppercase tracking-[0.2em] text-[var(--brand)]">
                     Café Kitchen
                 </p>
@@ -1314,8 +1223,7 @@
                 </h2>
 
                 <div class="mt-8 space-y-5">
-
-
+                       
                     <article class="flex justify-between gap-5 border-b border-[var(--line)] pb-5">
 
                         <div>
@@ -1497,8 +1405,7 @@
 
         <a
             href="contact.html"
-            class="mt-7 inline-block rounded-full bg-white px-7 py-4 font-bold text-[var(--brand)]"
-        >
+            class="mt-7 inline-block rounded-full bg-white px-7 py-4 font-bold text-[var(--brand)]">
             Reserve a Table
         </a>
 
@@ -1517,7 +1424,7 @@
         </p>
 
         <h1 class="mt-4 text-5xl font-extrabold sm:text-6xl">
-            Moments at Pink City Brew.
+            Moments at Romeo lane .
         </h1>
 
         <p class="mx-auto mt-6 max-w-2xl leading-8 text-[var(--muted)]">
@@ -1533,7 +1440,7 @@
      <!-- RESPONSIVE GALLERY GRID -->
    
 
-<section class="py-20">
+<section id="gallery" class="py-20">
 
     <div class="mx-auto max-w-7xl px-5 lg:px-8">
 
@@ -1545,10 +1452,9 @@
             <figure class="sm:row-span-2">
 
                 <img
-                    src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=85"
+                    src="./Images/gallery-1.avif"
                     alt="Warm café interior with hanging lights"
-                    class="gallery-image h-full min-h-[500px] w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-full min-h-[500px] w-full rounded-3xl object-cover">
 
                 <figcaption class="sr-only">
                     Pink City Brew café interior.
@@ -1560,10 +1466,9 @@
             <figure>
 
                 <img
-                    src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85"
+                    src="./Images/gallery-2.jpg"
                     alt="Freshly brewed coffee"
-                    class="gallery-image h-72 w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-72 w-full rounded-3xl object-cover">
 
             </figure>
 
@@ -1571,10 +1476,9 @@
             <figure>
 
                 <img
-                    src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=85"
+                    src="./Images/gallery-3.jpg"
                     alt="Modern café seating"
-                    class="gallery-image h-72 w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-72 w-full rounded-3xl object-cover">
 
             </figure>
 
@@ -1582,10 +1486,9 @@
             <figure>
 
                 <img
-                    src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=85"
+                    src="./Images/gallery-4.jpg"
                     alt="Chocolate dessert served at a café"
-                    class="gallery-image h-72 w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-72 w-full rounded-3xl object-cover">
 
             </figure>
 
@@ -1593,10 +1496,9 @@
             <figure>
 
                 <img
-                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+                    src="./Images/gallery-6.avif"
                     alt="Fresh healthy food bowl"
-                    class="gallery-image h-72 w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-72 w-full rounded-3xl object-cover">
 
             </figure>
 
@@ -1604,10 +1506,9 @@
             <figure>
 
                 <img
-                    src="https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=900&q=85"
+                    src="./Images/gallery-5.jpg"
                     alt="Grilled sandwich on a plate"
-                    class="gallery-image h-72 w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-72 w-full rounded-3xl object-cover">
 
             </figure>
 
@@ -1617,8 +1518,7 @@
                 <img
                     src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85"
                     alt="Restaurant style café dining area"
-                    class="gallery-image h-72 w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-72 w-full rounded-3xl object-cover">
 
             </figure>
 
@@ -1628,8 +1528,7 @@
                 <img
                     src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=85"
                     alt="People sitting inside a coffee shop"
-                    class="gallery-image h-72 w-full rounded-3xl object-cover"
-                >
+                    class="gallery-image h-72 w-full rounded-3xl object-cover">
 
             </figure>
 
@@ -1660,7 +1559,7 @@
             href="#"
             class="mt-6 inline-block rounded-full border border-white/20 px-6 py-3 font-semibold hover:bg-white hover:text-black"
         >
-            @pinkcitybrew
+            @romeolane
         </a>
 
     </div>
@@ -1694,7 +1593,7 @@
 
 <!-- CONTACT -->
 
-<section id="reservation" class="py-24">
+<section id="contact" class="py-24">
 
     <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-5 lg:px-8">
 
@@ -1730,7 +1629,7 @@
                         </h3>
 
                         <address class="mt-1 text-sm not-italic leading-6 text-[var(--muted)]">
-                            C-Scheme,<br>
+                            12th Floor, World Business Center ,<br>
                             Jaipur, Rajasthan 302001
                         </address>
 
@@ -1783,7 +1682,7 @@
                             href="mailto:hello@pinkcitybrew.com"
                             class="mt-1 block text-sm text-[var(--muted)] hover:text-[var(--brand)]"
                         >
-                            hello@pinkcitybrew.com
+                            romeolane@.com
                         </a>
 
                     </div>
@@ -1873,8 +1772,7 @@
                 <form
                     action="#"
                     method="post"
-                    class="mt-8 space-y-6"
-                >
+                    class="mt-8 space-y-6">
 
 
                     <!-- Name -->
@@ -1883,8 +1781,7 @@
 
                         <label
                             for="name"
-                            class="mb-2 block text-sm font-semibold"
-                        >
+                            class="mb-2 block text-sm font-semibold" >
                             Full Name
                         </label>
 
@@ -1895,8 +1792,7 @@
                             autocomplete="name"
                             placeholder="Enter your name"
                             required
-                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]"
-                        >
+                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]">
 
                     </div>
 
@@ -1907,8 +1803,7 @@
 
                         <label
                             for="phone"
-                            class="mb-2 block text-sm font-semibold"
-                        >
+                            class="mb-2 block text-sm font-semibold" >
                             Phone Number
                         </label>
 
@@ -1919,8 +1814,7 @@
                             autocomplete="tel"
                             placeholder="+91 XXXXX XXXXX"
                             required
-                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]"
-                        >
+                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]" >
 
                     </div>
 
@@ -1931,8 +1825,7 @@
 
                         <label
                             for="email"
-                            class="mb-2 block text-sm font-semibold"
-                        >
+                            class="mb-2 block text-sm font-semibold">
                             Email Address
                         </label>
 
@@ -1943,8 +1836,7 @@
                             autocomplete="email"
                             placeholder="you@example.com"
                             required
-                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]"
-                        >
+                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]">
 
                     </div>
 
@@ -1955,8 +1847,7 @@
 
                         <label
                             for="service"
-                            class="mb-2 block text-sm font-semibold"
-                        >
+                            class="mb-2 block text-sm font-semibold">
                             What do you need?
                         </label>
 
@@ -1964,8 +1855,7 @@
                             id="service"
                             name="service"
                             required
-                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]"
-                        >
+                            class="w-full rounded-xl border border-[var(--line)] bg-[var(--surface)] px-5 py-4 outline-none focus:border-[var(--brand)]">
 
                             <option value="">
                                 Select a service
@@ -2043,14 +1933,12 @@
 
                     <button
                         type="submit"
-                        class="w-full rounded-xl bg-[var(--brand)] px-6 py-4 font-bold text-white transition hover:bg-[var(--brand-dark)]"
-                    >
+                        class="w-full rounded-xl bg-[var(--brand)] px-6 py-4 font-bold text-white transition hover:bg-[var(--brand-dark)]">
 
                         Send Reservation Request
 
                         <i class="fa-solid fa-arrow-right ml-2"></i>
-
-                    </button>
+                     </button>
 
 
                     <p class="text-center text-xs text-[var(--muted)]">
@@ -2077,7 +1965,7 @@
         <i class="fa-solid fa-location-dot text-4xl text-[var(--brand)]"></i>
 
         <h2 class="mt-5 text-3xl font-extrabold">
-            Find us in C-Scheme, Jaipur.
+            12th Floor, World Business Center , Jaipur.
         </h2>
 
         <p class="mx-auto mt-3 max-w-xl text-[var(--muted)]">
@@ -2110,7 +1998,7 @@
       <div>
         <a href="#home" class="inline-block mb-5">
           <h2 class="text-2xl font-bold tracking-wide">
-            Pink City <span class="text-pink-400">Brew</span>
+            Romeo <span class="text-pink-400">Lane</span>
           </h2>
         </a>
 
@@ -2122,7 +2010,8 @@
         <!-- Social Media -->
         <div class="flex gap-4 mt-6">
 
-          <a href="#"
+          <a href="https://www.instagram.com/romeolanejaipur/"
+
              aria-label="Instagram"
              class="w-10 h-10 flex items-center justify-center rounded-full
                     bg-white/10 hover:bg-pink-500 transition duration-300">
@@ -2130,21 +2019,21 @@
           </a>
 
           <a href="#"
-             aria-label="Facebook"
+             aria-label="https://www.facebook.com/romeolanejaipur"
              class="w-10 h-10 flex items-center justify-center rounded-full
                     bg-white/10 hover:bg-pink-500 transition duration-300">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
 
           <a href="#"
-             aria-label="Twitter"
+             aria-label="https://x.com/romeolanejaipur"
              class="w-10 h-10 flex items-center justify-center rounded-full
                     bg-white/10 hover:bg-pink-500 transition duration-300">
             <i class="fa-brands fa-x-twitter"></i>
           </a>
 
           <a href="#"
-             aria-label="YouTube"
+             aria-label="https://www.youtube.com/@romeolanejaipur"
              class="w-10 h-10 flex items-center justify-center rounded-full
                     bg-white/10 hover:bg-pink-500 transition duration-300">
             <i class="fa-brands fa-youtube"></i>
@@ -2246,7 +2135,7 @@
             <i class="fa-solid fa-location-dot text-pink-400 mt-1"></i>
 
             <span class="text-gray-400">
-              C-Scheme, Jaipur,<br>
+              12th Floor, World Business Center , jaipur<br>
               Rajasthan, India
             </span>
           </li>
@@ -2256,7 +2145,7 @@
 
             <a href="tel:+919876543210"
                class="text-gray-400 hover:text-pink-400 transition">
-              +91 98765 43210
+              +91 98765***
             </a>
           </li>
 
@@ -2265,7 +2154,7 @@
 
             <a href="mailto:hello@pinkcitybrew.com"
                class="text-gray-400 hover:text-pink-400 transition break-all">
-              hello@pinkcitybrew.com
+              hello@RomeoLane.com
             </a>
           </li>
 
@@ -2284,7 +2173,7 @@
                 items-center justify-between gap-3">
 
       <p class="text-gray-500 text-sm text-center md:text-left">
-        © 2026 Pink City Brew Café. All rights reserved.
+        © 2026 Romeo Lane caffe. All rights reserved.
       </p>
 
       <div class="flex gap-5 text-sm">
